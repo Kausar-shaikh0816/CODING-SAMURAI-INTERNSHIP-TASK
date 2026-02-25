@@ -1,0 +1,40 @@
+ Handwritten Digit Recognition (MNIST)
+
+ Project Overview
+This project builds an image classification model to recognize handwritten digits (0–9) using the MNIST dataset.
+
+ Objective
+To train a machine learning / neural network model capable of identifying handwritten digits with high accuracy.
+
+ Dataset
+Dataset Used: MNIST Dataset  
+- 70,000 grayscale images
+- 28x28 pixel images
+- 10 output classes (0–9)
+
+## 🛠 Technologies Used
+- Python
+- NumPy
+- TensorFlow / Keras
+- Matplotlib
+- Scikit-learn (if used)
+
+ Steps Performed
+1. Data Loading
+2. Image Preprocessing & Normalization
+3. Model Building (Neural Network)
+4. Model Training
+5. Model Evaluation using Accuracy & Confusion Matrix
+
+ Results
+Achieved 97–99% accuracy on test dataset.
+
+ How to Run
+1. Install required libraries:
+   pip install tensorflow numpy matplotlib
+
+2. Run the Python file:
+   python mnist_model.py
+
+ Internship
+Project completed as part of Coding Samurai Machine Learning Internship.
